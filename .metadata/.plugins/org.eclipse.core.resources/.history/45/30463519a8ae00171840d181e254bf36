@@ -1,0 +1,32 @@
+package TestingCode;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Single dimensional Array
+		
+		int set[]; // Declaration - Which wont allocate memory
+		
+		set = new int[10];  // Creation 
+		
+		set[0] = 1;
+		
+		set[9] = 5;
+		
+		int setup[] = {1,2,3,4,5}; // Declaration and initalzation 
+		
+		
+		// Multidimensional Array
+		
+		int tested[][];
+		tested = new int[2][2];  // total number will be assigned here
+		
+		tested[0][1] = 150;  // // in total we are getting what place we want
+		
+		System.out.println("hello sample" + tested[0][1]);
+		
+	}
+
+}

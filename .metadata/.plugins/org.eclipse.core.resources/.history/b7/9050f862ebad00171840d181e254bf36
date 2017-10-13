@@ -1,0 +1,19 @@
+package TestingCode;
+
+public class Encapsulation {
+	
+	//Encapsulation in java is a process of wrapping code and data together into a single unit, 
+	//for example capsule i.e. mixed of several medicines in single capsule.
+	
+	// Rule : All the data member should be in private so other class will not use this private data members
+	
+	// data member
+	private String name; 
+	private int rollnumber;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

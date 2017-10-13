@@ -1,0 +1,14 @@
+package abstractClass;
+
+abstract class testAbstrac {
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

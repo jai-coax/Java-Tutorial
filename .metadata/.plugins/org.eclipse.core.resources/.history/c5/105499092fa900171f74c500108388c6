@@ -1,0 +1,24 @@
+package interfaceCode;
+
+public interface Drawable {
+	
+	void draw(); // we can create method only like this(void draw()) with any information ,
+						//except for default method and static method  
+	
+	// default method 
+	
+	default void msg(){ 
+		
+		System.out.println("default method");
+	
+	}  
+	
+	//static method 
+	
+	static int cube(int x){
+		
+		return x*x*x;
+		
+	}  
+
+}

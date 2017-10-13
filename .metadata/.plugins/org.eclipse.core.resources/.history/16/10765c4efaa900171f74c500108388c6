@@ -1,0 +1,16 @@
+package abstractClass;
+
+public class TestAbstraction2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			Bike a = new Honda();
+			
+			a.changeGear();
+			a.run();
+	
+
+	}
+
+}

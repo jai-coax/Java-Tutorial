@@ -1,0 +1,17 @@
+package abstractClass;
+
+abstract class Abstrac {
+	
+	// we can say Abstract is advance of interface 
+	// in abstract class we can use two methods - abstract and Non-abstract method
+	
+	
+	abstract void run(); // abstract method -- this method should be overide in extended class
+	
+	
+	void print() { // non-abstarct method 
+		
+		System.out.println();
+	}
+
+}

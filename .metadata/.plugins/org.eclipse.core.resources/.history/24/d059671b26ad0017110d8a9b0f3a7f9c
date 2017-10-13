@@ -1,0 +1,20 @@
+package polymorphism;
+
+public class downcasting extends polyTest {
+	
+	static void method(polyTest a) {  
+	    if(a instanceof downcasting){  
+	    	downcasting d=(downcasting)a; //downcasting  
+	       System.out.println("ok downcasting performed");  
+	    }  
+	  }  
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		polyTest a=new downcasting();  
+		downcasting.method(a);  
+
+	}
+
+}

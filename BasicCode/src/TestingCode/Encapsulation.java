@@ -1,0 +1,30 @@
+package TestingCode;
+
+public class Encapsulation {
+	
+	//Encapsulation in java is a process of wrapping code and data together into a single unit, 
+	//for example capsule i.e. mixed of several medicines in single capsule.
+	
+	// We can create a fully encapsulated class in java by making all the data members of the class private. 
+	//Now we can use setter and getter methods to set and get the data in it.
+	
+	//As per My knowledge-Using access modifier(this topic comes under Encapsulation) we need hide and simplify the code
+	
+	// data member
+	private String name; 
+	private int rollnumber;
+	
+	public String getName(){   // getter method
+		
+		return name;    
+		
+		}  
+	
+	public void setName(String name){  // setter method
+		
+		this.name=name;
+		
+	}  
+	
+
+}

@@ -1,0 +1,28 @@
+package polymorphism;
+
+public class InstanceInitializerBlock {
+	
+    int speed;  
+    
+    InstanceInitializerBlock(){
+    	
+    	System.out.println("constructor is invoked");
+    	
+    }  
+   
+    {
+    	System.out.println("instance initializer block invoked");
+    	
+    }  
+	
+    {
+    	speed =100;
+    }
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

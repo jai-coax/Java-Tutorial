@@ -1,0 +1,20 @@
+package inheritance;
+
+public class multiInhert extends singleInhert {
+
+	int test2 = 10;
+	
+	void sample() {
+		
+		//super.sample();
+		testing();
+		
+		System.out.println("class 2 execution");
+	}
+	
+	multiInhert(){
+		
+		System.out.println("class 2 constructor");
+	}
+	
+}

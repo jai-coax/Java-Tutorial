@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Hierarch1 {
+	
+	
+	void testing1() {
+		
+		System.out.println("Class 2");
+	}
+
+}

@@ -1,0 +1,31 @@
+package polymorphism;
+
+public class overloading {
+	
+	// Method overloading -- same method name with differnet parameter inside a single class
+	
+	void test() {
+		
+		
+	}
+	
+	
+	void test(int a) {
+		
+		
+	}
+	
+	
+	void test(int a,int b) {
+		
+		
+		
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

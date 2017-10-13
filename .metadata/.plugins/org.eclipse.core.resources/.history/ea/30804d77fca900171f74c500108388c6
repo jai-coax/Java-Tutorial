@@ -1,0 +1,13 @@
+package abstractClass;
+
+public class Abstract1 implements Interface {
+
+
+	@Override
+	public void c() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

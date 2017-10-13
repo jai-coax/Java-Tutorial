@@ -1,0 +1,17 @@
+package polymorphism;
+
+public class polyTest {
+	
+	// Polymorphism - (Poly)Many(morphism)Behaviour
+	
+	// Compile time - Method overloading
+	// Run time - method overriding
+	
+	
+	public static void main(String[] args) {
+	
+		
+
+	}
+
+}

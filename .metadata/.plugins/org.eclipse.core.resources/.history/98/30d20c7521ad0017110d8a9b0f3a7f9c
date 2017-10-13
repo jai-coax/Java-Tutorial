@@ -1,0 +1,27 @@
+package polymorphism;
+
+public class overRiding extends polyTest {
+	
+	// Method Overloading - Same method name with same parameter in different class(or extended Class)
+	
+	// overloading happens in Run time
+	
+	
+	public void run() {
+		
+		System.out.println("Class B - sample");
+		
+		}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		overRiding b = new overRiding();
+		
+		//polyTest b = new polyTest();
+		
+		b.run();
+		
+
+	}
+
+}

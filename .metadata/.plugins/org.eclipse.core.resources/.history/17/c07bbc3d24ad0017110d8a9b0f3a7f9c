@@ -1,0 +1,16 @@
+package polymorphism;
+
+public class DynamicBinding extends polyTest {
+
+	void eat(){
+		
+		System.out.println("dog is eating...");
+		
+	}  
+	  
+	 public static void main(String args[]){  
+		 
+		 DynamicBinding a=new DynamicBinding();  
+		 a.eat();  
+	 }  
+}
