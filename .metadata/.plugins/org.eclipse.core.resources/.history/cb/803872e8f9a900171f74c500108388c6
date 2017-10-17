@@ -1,7 +1,0 @@
-package abstractClass;
-
- public class Honda extends Bike{
-	 
-	 
-
-}

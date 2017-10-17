@@ -1,9 +1,0 @@
-package abstractClass;
-
-abstract class Bike {
-	
-	// in this im using constructor, data member, methods etc.
-	
-	
-
-}

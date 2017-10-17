@@ -1,0 +1,23 @@
+package String;
+
+public class StringCompare {
+	
+	//We can compare string in java on the basis of content and reference.
+
+	//It is used in authentication (by equals() method), sorting (by compareTo() method), 
+	//reference matching (by == operator) etc.
+
+	//There are three ways to compare string in java:
+	       //By equals() method
+	       //By = = operator
+	       //By compareTo() method
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

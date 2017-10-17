@@ -1,7 +1,0 @@
-package interfaceCode;
-
-public interface Drawable {
-	
-	void draw();
-
-}
